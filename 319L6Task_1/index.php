@@ -46,7 +46,7 @@
         <!-- button submitting the application -->
             <div id="buttons">
                 <label>&nbsp;</label>
-                <input type="submit" value="Calculate"><br>
+                <input type="submit" value="Calculate">
             </div>
         </form>
     </main>

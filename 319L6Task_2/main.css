@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 1em;
     padding: 0;
+    background: #D8D6D6;
 }
 /* styling for the main element */
 main {
@@ -11,22 +12,33 @@ main {
     padding: 1.5em;
     background: white;
     border: 2px solid navy;
+    border-radius: 10px;
+    box-shadow: grey 7px 6px 8px;
 }
 /* stylying for the h1 tag */
 h1 {
     color: navy;
+    text-align: center;
 }
 /* styling for the label element */
 label {
     width: 10em;
     padding-right: 1em;
     float: left;
+    font-weight: bold;
 }
 /* styleing for data id selector */
 #data input {
     float: left;
     width: 15em;
     margin-bottom: .5em;
+    border-style: none;
+    border-bottom: solid 1px gray;
+    box-shadow: grey 0px 0px 3px;
+    padding: .2em;
+}
+#data input:focus{
+    border-left: green solid 2px;
 }
 /* styling for the output span */
 #data span {
@@ -36,6 +48,14 @@ label {
 #buttons input {
     float: left;
     margin-bottom: .5em;
+}
+#buttons [type="submit"]{
+    background: #696969;
+    padding: .6em;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
 /* beak styling */
 br {
