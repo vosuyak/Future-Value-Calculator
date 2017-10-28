@@ -1,0 +1,43 @@
+/* styling for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+    padding: 0;
+}
+/* styling for the main element */
+main {
+    width: 450px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background: white;
+    border: 2px solid navy;
+}
+/* stylying for the h1 tag */
+h1 {
+    color: navy;
+}
+/* styling for the label element */
+label {
+    width: 10em;
+    padding-right: 1em;
+    float: left;
+}
+/* styleing for data id selector */
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+/* styling for the output span */
+#data span {
+    padding-left: .25em;
+}
+/* styling for button element */
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+}
+/* beak styling */
+br {
+    clear: left;
+}
